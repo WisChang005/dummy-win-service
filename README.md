@@ -2,7 +2,7 @@
 
 ## Usage
 
-* Insall
+* Install
 
 ```batch
 set SERVICE_NAME="csagent"
