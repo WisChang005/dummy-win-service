@@ -66,7 +66,7 @@ func serviceUninstall(s service.Service, srvName, srvDisplayName string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Uninstall Successful")
+	log.Println("Uninstall Successful")
 	return
 }
 
@@ -82,5 +82,5 @@ func (p *program) Stop(s service.Service) error {
 	return nil
 }
 func (p *program) run() {
-	fmt.Println("Run Service")
+	log.Println("Run Service")
 }
