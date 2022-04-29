@@ -1,3 +1,5 @@
+#! /bin/bash
+
 export GOARCH=amd64
 echo "Building Windows x64 binary..."
 go build -o ./bin/x64/dummy_service.exe dummy_service.go
